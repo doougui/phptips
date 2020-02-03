@@ -1,0 +1,28 @@
+{
+  "name": "doougui/phptips001",
+  "description": "Conhecendo o Composer e configurando IDE | PHP TIPS #001",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Douglas Pinheiro Goulart",
+      "email": "douglaspigoulart@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/doougui"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+
+  }
+}
