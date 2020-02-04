@@ -1,0 +1,28 @@
+{
+  "name": "doougui/phptips002",
+  "description": "Abstração de banco de dados com DataLayer | PHP TIPS #002",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Douglas Pinheiro Goulart",
+      "email": "douglaspigoulart@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/doougui"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "^1.1"
+  }
+}
